@@ -1,0 +1,26 @@
+
+
+main {
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+}
+
+main button {
+    height: 32px;
+    min-width: 32px;
+}
+
+main p {
+    display: block;
+}
+
+main button:nth-of-type(3) {
+    margin-inline: 350px;
+}
